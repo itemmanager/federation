@@ -1,0 +1,22 @@
+{
+  "name": "federation",
+  "version": "0.0.1",
+  "description": "gateway for itemmanager",
+  "dependencies": {
+    "@apollo/gateway": "^0.46.0",
+    "apollo-server": "^3.5.0",
+    "graphql": "^15.8.0"
+  },
+
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  },
+
+  "scripts": {
+    "server": "node src/index.js"
+  },
+  "author": "Damian Świstowski <damian@swistowski.org>",
+  "license": "MIT",
+  "private": true
+}
